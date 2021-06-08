@@ -633,6 +633,7 @@ address a {
   top: 0;
   left: 0;
   transform: translateY(100%);
+  transition: 250ms;
   width: 100%;
   height: 100%;
   color: white;
@@ -650,8 +651,9 @@ address a {
 
 .portfolio-card:hover .overlay {
   transform: translateY(0%);
-  transition: 3s;
+  transition: 250ms;
 }
+
 .backdrop {
   position: fixed;
   top: 0;
@@ -677,14 +679,13 @@ address a {
   width: 30px;
   height: 30px;
   border-radius: 50%;
-  border: 1px solid 1px solid rgba(0, 0, 0, 0.1);
+  border: 1px solid rgba(0, 0, 0, 0.1);
   background-color: transparent;
   cursor: pointer;
-  padding: 0px;
 }
 .svg-modal-close-btn {
-  width: 18px;
-  height: 18px;
+  width: 11px;
+  height: 11px;
 }
 .is-hidden {
   opacity: 0;

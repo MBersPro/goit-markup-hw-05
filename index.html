@@ -405,7 +405,8 @@
             </div>
         </div>
     </footer>
-    <div class="backdrop" data-modal>
+
+    <div class="backdrop is-hidden" data-modal>
         <div class="modal">
             <button type="button" class="modal-close-btn" data-modal-close>
                 <svg class="svg-modal-close-btn">
@@ -414,33 +415,8 @@
             </button>
         </div>
     </div>
-    <!-- Вся твоя разметка, включая разметку модалки -->
 
-<!-- Ставим перед закрывающим тегом body -->
-<div class="backdrop .is-hidden" data-modal>
-    <div class="modal">
-        <button type="button" class="modal-close-btn" data-modal-close>
-            <svg class="svg-modal-close-btn">
-                <use href="./images/sprite.svg#icon-close-black"></use>
-            </svg>
-        </button>
-    </div>
-</div>
-<!-- Вся твоя разметка, включая разметку модалки -->
+    <script src="./js/modal.js"></script>
 
-<!-- Ставим перед закрывающим тегом body -->
-<div class="backdrop" data-modal>
-    <div class="modal">
-        <button type="button" class="modal-close-btn" data-modal-close>
-            <svg class="svg-modal-close-btn">
-                <use href="./images/sprite.svg#icon-close-black"></use>
-            </svg>
-        </button>
-    </div>
-</div>
-<!-- Вся твоя разметка, включая разметку модалки -->
-
-<!-- Ставим перед закрывающим тегом body -->
-<script src="./js/modal.js"></script> 
-</body>
+    </body>
 </html>
